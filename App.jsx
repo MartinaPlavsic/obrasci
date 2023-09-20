@@ -26,24 +26,23 @@ function App() {
     <form onSubmit={handleSubmitForm}/>
       <form>
       <div>
+      <p>
         <label>
           Ime:
           <input type="text" name="ime" value={name} onChange={handleNameChange}/>
         </label>
-
+        </p>
+        <p>
         <label>
           Password:
           <input type="password" name="password" value={password} onChange={handlePasswordChange}/>
         </label>
+        </p>
 
-        <label>
-          Godine:
-          <input type="text" name="god" />
-        </label>
-
+        <p>
         <input type="submit" value="Potvrdi" />
+        </p>
 
-        
         </div>
       </form>
 
